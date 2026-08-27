@@ -64,7 +64,7 @@ nav {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 50px;
 }
 
 .nav-links a {
@@ -72,6 +72,8 @@ nav {
   font-weight: 600;
   color: #444;
   transition: 0.2s;
+  margin: 0 5px;
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
