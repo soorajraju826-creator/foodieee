@@ -1,0 +1,167 @@
+{
+  "foods": [
+    {
+      "id": "1",
+      "name": "Chicken Biriyani",
+      "price": 180,
+      "category": "Biriyani",
+      "image": "/foods/chicken-biriyani.jpg",
+      "description": "Aromatic basmati rice cooked with tender chicken, spices and herbs.",
+      "available": true
+    },
+    {
+      "id": "2",
+      "name": "Beef Biriyani",
+      "price": 200,
+      "category": "Biriyani",
+      "image": "/foods/beef-biriyani.jpg",
+      "description": "Flavourful biriyani prepared with tender beef and traditional spices.",
+      "available": true
+    },
+    {
+      "id": "3",
+      "name": "Chicken Fried Rice",
+      "price": 150,
+      "category": "Rice",
+      "image": "/foods/chicken-fried-rice.jpg",
+      "description": "Fried rice tossed with chicken, vegetables and delicious sauces.",
+      "available": true
+    },
+    {
+      "id": "4",
+      "name": "Chicken Noodles",
+      "price": 140,
+      "category": "Noodles",
+      "image": "/foods/chicken-noodles.jpg",
+      "description": "Hot and tasty noodles cooked with chicken and fresh vegetables.",
+      "available": true
+    },
+    {
+      "id": "5",
+      "name": "Chicken Burger",
+      "price": 130,
+      "category": "Burger",
+      "image": "/foods/chicken-burger.jpg",
+      "description": "Crispy chicken patty served in a soft burger bun with fresh toppings.",
+      "available": true
+    },
+    {
+      "id": "6",
+      "name": "French Fries",
+      "price": 90,
+      "category": "Snacks",
+      "image": "/foods/french-fries.jpg",
+      "description": "Crispy golden French fries served hot and fresh.",
+      "available": true
+    },
+    {
+      "id": "7",
+      "name": "Chicken Shawarma",
+      "price": 120,
+      "category": "Shawarma",
+      "image": "/foods/chicken-shawarma.jpg",
+      "description": "Juicy seasoned chicken wrapped with vegetables and creamy sauce.",
+      "available": true
+    },
+    {
+      "id": "8",
+      "name": "Fresh Lime Juice",
+      "price": 50,
+      "category": "Drinks",
+      "image": "/foods/fresh-lime.jpg",
+      "description": "Refreshing fresh lime juice served chilled.",
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "sooraj raju",
+      "phone": "09747065609",
+      "address": "Illithode",
+      "paymentMethod": "Online Payment",
+      "items": [
+        {
+          "id": "1",
+          "name": "Chicken Biriyani",
+          "price": 180,
+          "category": "Biriyani",
+          "image": "/foods/chicken-biriyani.jpg",
+          "description": "Aromatic basmati rice cooked with tender chicken, spices and herbs.",
+          "available": true,
+          "quantity": 1
+        }
+      ],
+      "total": 180,
+      "status": "Cancelled",
+      "createdAt": "2026-08-27T16:09:32.858Z",
+      "id": "LTEcRaUaeSQ"
+    },
+    {
+      "customerName": "sooraj raju",
+      "phone": "09747065609",
+      "address": "Illithode",
+      "paymentMethod": "Cash on Delivery",
+      "items": [
+        {
+          "id": "2",
+          "name": "Beef Biriyani",
+          "price": 200,
+          "category": "Biriyani",
+          "image": "/foods/beef-biriyani.jpg",
+          "description": "Flavourful biriyani prepared with tender beef and traditional spices.",
+          "available": true,
+          "quantity": 1
+        }
+      ],
+      "total": 200,
+      "status": "Delivered",
+      "createdAt": "2026-08-27T16:12:19.226Z",
+      "id": "lG8466efRa4"
+    },
+    {
+      "customerName": "sooraj raju",
+      "phone": "09747065609",
+      "address": "Illithode",
+      "paymentMethod": "Online Payment",
+      "items": [
+        {
+          "id": "1",
+          "name": "Chicken Biriyani",
+          "price": 180,
+          "category": "Biriyani",
+          "image": "/foods/chicken-biriyani.jpg",
+          "description": "Aromatic basmati rice cooked with tender chicken, spices and herbs.",
+          "available": true,
+          "quantity": 1
+        }
+      ],
+      "total": 180,
+      "status": "Pending",
+      "createdAt": "2026-08-27T17:01:07.813Z",
+      "id": "Zu1iMR23gXU"
+    },
+    {
+      "customerName": "sooraj raju",
+      "phone": "09747065609",
+      "address": "Illithode",
+      "paymentMethod": "Cash on Delivery",
+      "items": [
+        {
+          "id": "1",
+          "name": "Chicken Biriyani",
+          "price": 180,
+          "category": "Biriyani",
+          "image": "/foods/chicken-biriyani.jpg",
+          "description": "Aromatic basmati rice cooked with tender chicken, spices and herbs.",
+          "available": true,
+          "quantity": 1
+        }
+      ],
+      "total": 180,
+      "status": "Pending",
+      "createdAt": "2026-08-27T17:03:37.820Z",
+      "id": "oqYBBbf7H7Y"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
